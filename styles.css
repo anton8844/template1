@@ -1,0 +1,142 @@
+
+
+body {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: black;
+    margin-left: 150px;
+    margin-right: 150px;
+
+}
+#background{
+    background: url(images/architect.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    
+    }
+
+.logo {
+    position: relative;
+    text-align: center;
+    color: white;
+    }
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    }
+
+.column{
+    position: relative;
+    text-align: top;
+    color: white;
+    margin: 6px 6px;
+    
+        
+}
+.top-left{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.padding{
+ padding: 8px 16px
+}
+.black{
+    background-color: black
+}
+      
+.staff{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.staff  .box-wrapper{
+    flex-basis: 24%;
+}
+
+.staff .box-wrapper img{
+    width: 100%;
+}
+
+.button{
+    border: none;
+    padding: 8px 16px;
+    color: #ccc;
+    width: 100%;
+}
+.button:hover{
+    background-color: grey;
+}
+
+.light-grey{
+    color: #000;
+    background-color: #f1f1f1;
+}
+#box{
+   
+    display: flex;
+    flex-direction: column;
+}
+.input{
+    padding: 8px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+}
+.border{
+    border: 1px solid #ccc;
+}
+.section{
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.title{
+ display: flex;
+}
+
+.contacts{
+display: flex;
+justify-content: flex-start;
+}
+
+.contact{
+    display: flex;
+}
+
+.italic{
+    display: flex;
+}
+
+#name{
+    margin: auto;
+    margin-bottom: auto;
+}
+
+
+
+        
+
+
+
+    
+
+    
+
+    
+    
+
+    
